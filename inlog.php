@@ -105,7 +105,8 @@
                     <div class="col-3">
                         <p class="contact">Contact</p>
                         <div class="href"><a href="mailto:marat.petrosov@gmail.com?Subject=Hello%20again" class="button"
-                                target="_blank">email</a></div>
+                            target="_blank">email</a>
+                        </div>
 
                     </div>
                 </div>
