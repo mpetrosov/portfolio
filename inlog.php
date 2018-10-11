@@ -1,3 +1,8 @@
+<?php
+include('includes/connect.php');
+// include_once('includes/auth.inc.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -41,21 +46,21 @@
                     <div class="register-form">
                         <span id="log-in" class="switch-forms">login</span>
                         <h1>Sign up here</h1>
-                        <form class="form register" action="includes/register.inc.php" method="POST">
+                        <form class="form register" action="includes/register.php" method="POST">
                             <input class="signup_up" type="text" name="email" placeholder="example@example.com" >
                             <input class="signup_middel" type="text" name="username" placeholder="Username" >
                             <input class="signup_down" type="password" name="pwd" placeholder="Password" >
-                            <button class="button-back" type="submit">signup</button>
+                            <button class="button-back" type="submit" name="submit">signup</button>
                         </form>
                     </div>
                     
                     <div class="login-form">
                         <span id="sign-up" class="switch-forms">sign up</span> 
                         <h1>Login here</h1>
-                        <form class="form-login" action="includes/login.inc.php" method="POST">
+                        <form class="form-login" action="includes/login.php" method="POST">
                             <input class="login_up" type="text"  name="username" placeholder="Username/email"/>
                             <input class="login_down" type="password"  name="pwd" placeholder="password"/>
-                            <button class="button-back" type="submit">login</button>
+                            <button class="button-back" type="submit" name="submit">login</button>
                         </form>
                         <a href="forgot_password.php"> forgot your password?</a></br>
                     </div>
@@ -69,7 +74,7 @@
         <div class="modalbox" id="text">
             <div class="box">
                 <a class="close" href="#">X</a>
-                <p class="title">Title Here</p>
+                <p class="title">About Me</p>
                 <div class="content">
                     <h3>Hi! I am Marat Petrosov.
                     Now you are on website of a junior full-stack web developer .

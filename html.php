@@ -31,7 +31,7 @@
         </div>
         <div class="html-main">
             <div class="container">
-                <a href="main.html" class="button-back">&larr; Back to home</a>
+                <a href="main.php" class="button-back">&larr; Back to home</a>
             </div>
         </div>
 

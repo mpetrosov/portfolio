@@ -54,10 +54,10 @@
                 <div class="col-3">
                     <div class="portfolio-item">
                         <div class="portfolio-item-img">
-                            <a href="html.html"><img src="img/html.jpg" alt="HTML5"></a>
+                            <a href="html.php"><img src="img/html.jpg" alt="HTML5"></a>
                         </div>
                         <div class="portfolio-item-title">
-                            <a href="html.html">Test HTML</a>
+                            <a href="html.php">Test HTML</a>
                         </div>
                         <div class="portfolio-item-text">
                             <p>How to learn HTML</p>
@@ -68,10 +68,10 @@
                 <div class="col-3">
                     <div class="portfolio-item">
                         <div class="portfolio-item-img">
-                            <a href="css.html"><img src="img/css1.jpg" alt="CSS3"></a>
+                            <a href="css.php"><img src="img/css1.jpg" alt="CSS3"></a>
                         </div>
                         <div class="portfolio-item-title">
-                            <a href="css.html">Test CSS3</a>
+                            <a href="css.php">Test CSS3</a>
                         </div>
                         <div class="portfolio-item-text">
                             <p>How to learn CSS</p>
@@ -82,10 +82,10 @@
                 <div class="col-3">
                     <div class="portfolio-item">
                         <div class="portfolio-item-img">
-                            <a href="javascript.html"><img src="img/javascript1.jpg" alt="JavaScrip"></a>
+                            <a href="javascript.php"><img src="img/javascript1.jpg" alt="JavaScrip"></a>
                         </div>
                         <div class="portfolio-item-title">
-                            <a href="javascript.html">Test JavaScript</a>
+                            <a href="javascript.php">Test JavaScript</a>
                         </div>
                         <div class="portfolio-item-text">
                             <p>How to learn JavaScrip</p>
@@ -99,7 +99,7 @@
                             <a href="php.html"><img src="img/php.jpg" alt="PHP"></a>
                         </div>
                         <div class="portfolio-item-title">
-                            <a href="php.html">Test PHP</a>
+                            <a href="php.php">Test PHP</a>
                         </div>
                         <div class="portfolio-item-text">
                             <p>How to learn PHP</p>
