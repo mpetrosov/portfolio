@@ -87,7 +87,7 @@ include('includes/connect.php');
         </div>
             <div id="mySidenav" class="sidenav">
             <a href="#text" id="about">About Me</a>
-        </div>
+            </div>
 
         <div class="footer">
             <div class="fcontainer">

@@ -27,6 +27,30 @@ window.onload = function () {
     }
 
 
+    // ********************
+
+// TIC-TAC-TOE game
+
+// ********************
+
+    for(var i = 0; i < 9; i++){
+        document.getElementById('board').innerHTML +='<div class="block"></div>'; 
+    }
+
+    var step = 0;
+
+    document.getElementById('board').onclick = function(event){
+        console.log(event);
+        if(event.target.className == 'block'){
+            if(step % 2 == 0){
+                event.target.innerHTML = 'X'
+            }else{
+                event.target.innerHTML = '0';
+            }
+            step++;
+        }
+    }
+
 };
 
 
@@ -103,4 +127,20 @@ function submitAnswers() {
     }
 
     return false;
+}
+
+
+
+// ********************
+
+// TIC-TAC-TOE game
+
+// ********************
+
+var t = new Array(9);
+
+//wright X`s and 0`s
+function zero(){
+    var id = Math.floor(Math.rondom() * 9);
+
 }

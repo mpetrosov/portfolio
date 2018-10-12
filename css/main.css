@@ -35,7 +35,8 @@ modal window sidebar
     padding: 40px;
     width: 30%;
     margin-top: 100px;
-    }
+}
+
     .modalbox .title {
     border-bottom: 1px solid #ccc;
     font-family: verdana;
@@ -45,7 +46,7 @@ modal window sidebar
     padding: 0 0 10px;
     text-transform: uppercase;
     color: #fff;
-        }
+}
     .modalbox .content {
     display: block;
     font-family: Verdana;
@@ -53,7 +54,9 @@ modal window sidebar
     line-height: 22px;
     padding: 10px 0 0;
     color: #fff;
-        }
+    text-align: justify;
+}
+
     .modalbox .close {
     color: #fff;
     display: block;
@@ -62,8 +65,7 @@ modal window sidebar
     font-size: 22px;
     height: 25px;
     text-decoration: none;
-        }
-
+}
 
 .modalbox{
     display: none;
@@ -74,7 +76,7 @@ modal window sidebar
     top: 0;
     left: 0;
     color:#333333;
-    }
+}
 
 .modalbox:target {
     display: block;
@@ -106,16 +108,17 @@ modal window sidebar
     display: grid;
     grid-template-columns:1fr 250px 1fr;
 }
+
 input {
     padding: 0.7em;
     margin-bottom: 0.5rem;
     width: auto;
     border-radius: 5px;
     border-style: dashed;
-  }
+}
   input:focus {
     outline: 3px solid gold;
-  }
+}
 
 .action{
     text-align: center;
@@ -169,12 +172,13 @@ span{
     right: 0;
     left: 0;
     z-index: -1;   
-  }
+}
 
 .img-circle {
     border: 3px solid white;
     border-radius: 50%;
 }
+
 .container{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -214,10 +218,12 @@ span{
     font-family: 'Handlee', cursive;
     margin-top: 50px;
 }
+
 .header-slogan{
     font-size: 28px;
     line-height: 42px;
 }
+
 .header-arrow{
     font-size: 48px;
     width: 60px;
@@ -337,6 +343,7 @@ html-main
     margin-top: 0px;
     margin-bottom: 20px;
 }
+
 .footer-name{
     font-size: 50px;
     margin-bottom: 10px;
@@ -442,3 +449,13 @@ html-main
     font-size: 45px;
     padding-right: 20px;
 }
+
+/* **********************
+game`
+
+********************** */
+
+/* .board{
+    display: grid;
+    grid-template-columns: repeat(1fr, 1fr, 1fr);
+} */

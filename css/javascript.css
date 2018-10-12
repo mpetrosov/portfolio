@@ -441,3 +441,26 @@ form h3 {
 .form-radio:checked {
     background-color: #f1f1f1;
 }
+
+
+
+/* **********************
+game`
+
+********************** */
+
+.board{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: #56C0FE;
+    width: 350px;
+    height: 350px;
+}
+
+.block{
+    padding-top: 25px;
+    font-size: 50px;
+    text-align: center;
+    border: 1px solid white;
+}

@@ -35,8 +35,23 @@
             <i class="fas fa-chevron-down" aria-hidden="true"></i>
         </div>
     </div>
-
-
+    <div class="modalbox" id="text">
+        <div class="box">
+            <a class="close" href="#">X</a>
+            <p class="title">About Me</p>
+            <div class="content">
+                <h3>Hi! I am Marat Petrosov.
+                Now you are on website of a junior full-stack web developer .
+                On this website you can test your knowledge of CSS, HTML, JavaScript, PHP.
+                For this website I have integrated the coding languages of CSS, HTML, JavaScript, PHP. All projects/quiz`s are developed in JavaScript. 
+                For more projects you can visit my <a href="https://github.com/mpetrosov?tab=repositories" target="_blank">github</a>.
+                </h3>
+            </div>
+        </div>
+    </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="#text" id="about">About Me</a>
+    </div>
     <!-- 
         ........................................
 
@@ -47,7 +62,7 @@
     <div class="portfolio">
         <div class="container">
             <div class="title">
-                Portfolio
+                My Projects
             </div>
             <div class="row">
                 <!-- We are in portfolio -->
@@ -105,6 +120,36 @@
                             <p>How to learn PHP</p>
                         </div>
                     </div>
+                </div>
+                <!-- We are in portfolio -->
+            </div>
+        </div>
+        <div class="row">
+                <!-- We are in portfolio -->
+                <div class="col-3">
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-img">
+                            <a href="tictactoe.php"><img src="img/krestikinoliki1.jpg" alt="HTML5"></a>
+                        </div>
+                        <div class="portfolio-item-title">
+                            <a href="tictactoe.php">play <strong>Tictactoe</strong></a>
+                        </div>
+                        <div class="portfolio-item-text">
+                        <a href="tictactoe.php">How to play Tictactoe</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- We are in portfolio -->
+                <div class="col-3">
+                  
+                </div>
+                <!-- We are in portfolio -->
+                <div class="col-3">
+                  
+                </div>
+                <!-- We are in portfolio -->
+                <div class="col-3">
+                   
                 </div>
                 <!-- We are in portfolio -->
             </div>

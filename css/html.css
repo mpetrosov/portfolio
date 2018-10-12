@@ -15,7 +15,7 @@
     right: 0;
     left: 0;
     z-index: -1;   
-  }
+}
 
 .jheader{
     display: grid;
@@ -55,6 +55,7 @@ font-family: 'Fredericka the Great', cursive;
 .scoreBtn{
     padding-top: 20px;
 }
+
 .myBtn{
     font-weight: 700;
     text-decoration: none;
@@ -80,6 +81,7 @@ font-family: 'Fredericka the Great', cursive;
     color: #fff;
     background-color: #0F4167;
 }
+
 .button-back{
     font-weight: 700;
     text-decoration: none;
@@ -140,11 +142,9 @@ font-family: 'Fredericka the Great', cursive;
     background-color: #BEECFF;
 }
 
-
 form{
     padding-left: 30px; 
 }
-
 
 form h3{
     font-size: 20px;
@@ -193,6 +193,7 @@ form h3{
     margin-top: 0px;
     margin-bottom: 20px;
 }
+
 .footer-name{
     font-size: 50px;
     margin-bottom: 10px;
@@ -339,7 +340,9 @@ form h3{
     color: white;
 }
 
-.modal-body {padding: 2px 16px;}
+.modal-body {
+    padding: 2px 16px;
+}
 
 .modal-footer {
     border-radius: 10px;
@@ -347,6 +350,7 @@ form h3{
     background-color: #5cb85c;
     color: white;
 }
+
 .button{
     font-weight: 700;
     text-decoration: none;
@@ -391,6 +395,7 @@ form h3{
      margin-right: 7px;
      outline: none;
 }
+
 .form-radio:checked::before
 {
      position: absolute;
@@ -400,10 +405,12 @@ form h3{
      content: '\02143';
      transform: rotate(40deg);
 }
+
 .form-radio:hover
 {
      background-color: #f7f7f7;
 }
+
 .form-radio:checked
 {
      background-color: #f1f1f1;
