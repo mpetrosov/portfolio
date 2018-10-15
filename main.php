@@ -1,3 +1,14 @@
+<?php
+
+include_once('includes/auth.php');
+include_once('includes/session.php');
+include_once('includes/conf.php');
+
+if(!isAuthenticated()){
+    die(header('Location: '.BASE_URL . "inlog.php?failed"));
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -60,6 +71,9 @@
 
         ...................................... -->
     <div class="portfolio">
+        <div class="logout">
+            <a href="logout.php"><i class="fas fa-sign-out-alt"></i></a>
+        </div>
         <div class="container">
             <div class="title">
                 My Projects
