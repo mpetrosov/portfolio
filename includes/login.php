@@ -12,7 +12,7 @@
             header("Location: ../inlog.php?login=empty");
             exit();
         } else {
-            $sql = "SELECT * FROM users WHERE username = '$username' OR email = '$username'";
+            $sql = "SELECT * FROM users WHERE user_name = '$username' OR email = '$username'";
             $result = mysqli_query($conn, $sql);
             $resultCheck = mysqli_num_rows($result);
             if ($resultCheck < 1){
@@ -29,7 +29,7 @@
                         //Log in the user here 
                         $_SESSION['id'] = $row['id'];
                         $_SESSION['email'] = $row['email'];
-                        $_SESSION['username'] = $row['username'];
+                        $_SESSION['user_name'] = $row['user_name'];
                         // $_SESSION['is_admin'] = $row['is_admin'];
                         header("Location: ../main.php?login=success");
                         exit();

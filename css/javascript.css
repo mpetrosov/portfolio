@@ -454,8 +454,8 @@ game`
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     background-color: #56C0FE;
-    width: 350px;
-    height: 350px;
+    /* width: 350px;*/
+    height: 350px; 
 }
 
 .block{

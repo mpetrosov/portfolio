@@ -23,7 +23,7 @@
                     exit();
                 } else {
                     //Check if username typed in
-                    $sql = "SELECT * FROM users WHERE username = '$username'";
+                    $sql = "SELECT * FROM users WHERE user_name = '$username'";
                     $result = mysqli_query($conn, $sql);
                     $resultCheck = mysqli_num_rows($result);
 
@@ -34,7 +34,7 @@
                         // Hashing the password
                         $hashedPwd = password_hash($pwd, PASSWORD_BCRYPT);
                         // Insert the user into the database
-                        $sql = "INSERT INTO users (username, email, user_pwd) VALUES ('$username','$email','$hashedPwd');";
+                        $sql = "INSERT INTO users (user_name, email, user_pwd) VALUES ('$username','$email','$hashedPwd');";
                         mysqli_query($conn, $sql);
                         header("Location: ../inlog.php?register=succes");
                         exit();

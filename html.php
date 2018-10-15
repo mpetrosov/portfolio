@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Fredericka+the+Great" rel="stylesheet">
     <!-- <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">  -->
     <link rel="shortcut icon" type="image/x-icon" href="img/icons8-toolbox-50.png">
-    <script src="js/javascript.js"></script>
+    <script src="js/html.js"></script>
     <title>HTML quiz</title>
 </head>
 
